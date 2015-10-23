@@ -1,0 +1,6 @@
+{
+  "port" : 3000,
+  "dburl" : "mongodb://localhost/fitness",
+  "secret" : "OHAZ_oiaze_382:zaihe",
+  "static_dir": "/public"
+}

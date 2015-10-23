@@ -1,0 +1,40 @@
+{
+  "name": "fitness",
+  "version": "0.0.1",
+  "description": "une application pour le suivi de la progression",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastien-m/fitness-app.git"
+  },
+  "keywords": [
+    "mongo",
+    "nodejs",
+    "jade",
+    "express"
+  ],
+  "author": "mercierbastien@hotmail.fr",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bastien-m/fitness-app/issues"
+  },
+  "homepage": "https://github.com/bastien-m/fitness-app#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.14.1",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "moment": "^2.10.6",
+    "mongoose": "^4.2.2",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
